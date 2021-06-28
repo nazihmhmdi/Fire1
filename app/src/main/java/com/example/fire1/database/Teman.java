@@ -30,6 +30,8 @@ public class Teman implements Serializable {
         this.telpon = telpon;
     }
 
+
+
     @Override
     public String toString() {
         return "Teman{" +
