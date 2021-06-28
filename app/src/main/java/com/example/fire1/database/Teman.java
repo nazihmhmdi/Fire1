@@ -5,6 +5,7 @@ import java.io.Serializable;
 public class Teman implements Serializable {
     String nama;
     String telpon;
+    String kode;
 
     public Teman() {
     }
@@ -30,7 +31,9 @@ public class Teman implements Serializable {
         this.telpon = telpon;
     }
 
+    public String getKode() { return  kode; }
 
+    public void setKode(String kode) { this.kode = kode; }
 
     @Override
     public String toString() {

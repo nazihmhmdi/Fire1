@@ -7,10 +7,16 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="FireBase"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Fire1">
+        <activity android:name=".TemanEdit"></activity>
+
+<!--        <meta-data-->
+<!--            android:name="com.google.android.actions"-->
+<!--            android:resource="@xml/menuteman" />-->
+
         <activity android:name=".TambahTeman" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -19,9 +25,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LihatTeman"
-            android:label="@string/app_name">
-        </activity>
+        <activity
+            android:name=".LihatTeman"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

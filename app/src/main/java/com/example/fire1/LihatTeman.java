@@ -59,7 +59,7 @@ public class LihatTeman extends AppCompatActivity {
                      * untuk keperluan Edit dan Delete data
                      */
                     Teman teman = noteDataSnapshot.getValue(Teman.class);
-                    teman.setNama(noteDataSnapshot.getKey());
+                    teman.setKode(noteDataSnapshot.getKey());
                     /**
                      * Menambahkan object Barang yang sudah dimapping
                      * ke dalam ArrayList
